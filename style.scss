@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'montserratregular';
+    src: url('fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratmedium';
+    src: url('fonts/montserrat-medium-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(-7deg, #21c7d1 0%, #0587a3 100%);
+    height: 3000px;
+
+
+header{
+    
+    margin: auto;
+    max-width: 1181px;
+    margin-top: 15px;
+    .header-container{
+        display: flex;
+        justify-content: space-between;
+        
+        .logo{
+            margin-right: 100px;
+            height: 50px;
+        }
+        .logo:hover{
+            cursor: pointer;
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            padding: 0;
+            a{
+                color: white;
+                text-decoration: none;;
+                padding: 10px;
+                font-family: 'montserratmedium';
+                font-weight: 500;
+                margin-left: 10px;
+                font-size: 16px;
+            }
+            a:hover{
+                border-radius: 5px;
+                background-color: white;
+                color: #21c7d2;
+            }
+            
+
+          
+        }
+        .solutions{
+            display: flex;
+            align-items: center;
+            padding: 0;
+            a{
+                color: white;
+                text-decoration: none;;
+                padding: 10px;
+                font-family: 'montserratmedium';
+                font-weight: 500;
+                margin-left: 10px;
+                font-size: 16px;
+            }
+            .download-app{
+                color: #21c7d2;
+                background-color: white;
+                border-radius: 5px;
+                font-size: 12px;
+                font-weight: 700;
+            }
+            .lang{
+                font-weight: 500;
+                font-size: 12px;
+            }
+        }
+    }
+  
+}
+
+
+div.title{
+    max-width: 740px;
+    margin: auto;
+    h1{
+        font-size: 50px;
+        line-height: 60px;
+        color: #ffffff;
+        font-family: 'montserratregular';
+        font-weight: 400;
+    }
+    h5{
+        text-align: center;
+        font-size: 26px;
+        line-height: 60px;
+        color: #ffffff;
+        font-family: 'montserratregular';
+        font-weight: 300;
+        text-align: center;
+    }
+    .btn{
+        
+        display: flex;
+        justify-content: center;
+        .first{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 239px;
+            height: 50px;
+            border-radius: 5px;
+            filter: drop-shadow(-1.627px -3.654px 8px rgba(0,0,0,0.16));
+            background-color: #21c7d2;
+            div{
+                font-size: 12px;
+                line-height: 46px;
+                color: #ffffff;
+                font-family: 'montserratmedium';
+                font-weight: 700;
+                text-align: center;
+                text-transform: uppercase;
+            }
+        }
+        .second{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 239px;
+            height: 50px;
+            div{
+                font-size: 12px;
+                line-height: 46px;
+                color: #21c7d2;
+                font-family: 'montserratmedium';
+                font-weight: 700;
+                text-align: center;
+                text-transform: uppercase;
+                img{
+                    padding-left: 10px;
+                }
+            }
+        }
+   
+    }
+}
+
+
+.phone{
+    position: sticky;
+    top: 0;
+    padding-top: 60px;
+   .image{
+     display: flex;
+     justify-content: center;
+     position: relative;
+     
+     .phone-image{
+         width: auto;
+         position: absolute;
+     }
+     .slide-content{
+         width: auto;
+         position: absolute;
+         top: 42px;
+         transform: translateX(-33%);
+         .rel{
+             position: relative;
+             width: 258.5px;
+             height: 600px;
+             overflow: hidden;
+
+             .slide-image{
+                 position: absolute;
+                 transition: .9s ease;
+                 transform: translateX(0%);
+             }
+             .left{
+                 transform: translateX(-50%);
+                 transition: .9s ease;
+             }
+         }
+            
+             
+         }
+        
+         
+     }
+    
+
+   }
+
+
+
+}
